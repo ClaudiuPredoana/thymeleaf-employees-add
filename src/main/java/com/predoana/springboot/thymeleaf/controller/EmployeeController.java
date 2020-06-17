@@ -31,7 +31,7 @@ public class EmployeeController {
 		//add to the string model
 		theModel.addAttribute("employees", theEmployees);
 		
-		return "list-employees";
+		return "/employees/list-employees";
 		
 	}
 }
